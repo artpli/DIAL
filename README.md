@@ -39,7 +39,7 @@ Furthermore, by leveraging heterogeneous human demonstrations, DIAL learns physi
 
 ### Training Environment
 
-Tested on NVIDIA H200 GPUs with CUDA 12.x.
+**Training hardware:** 8 × NVIDIA GPUs, per-GPU batch size 32, CUDA 12.x.
 
 ```bash
 conda create -n dial python=3.10 -y
